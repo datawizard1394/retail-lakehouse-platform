@@ -5,7 +5,7 @@
 
 locals {
   resource_name = "retail-${var.environment}-${var.name_suffix}"
-  default_tags = {
+  default_tags  = {
     application = "retail-lakehouse-portfolio-demo"
     environment = var.environment
     data_class   = "synthetic"
