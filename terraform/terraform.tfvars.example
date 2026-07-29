@@ -1,0 +1,10 @@
+# Illustrative values only. Do not commit real subscription details or secrets.
+name_suffix = "abc123"
+environment = "demo"
+location    = "canadacentral"
+
+tags = {
+  owner       = "portfolio"
+  cost_center = "demo-only"
+}
+
