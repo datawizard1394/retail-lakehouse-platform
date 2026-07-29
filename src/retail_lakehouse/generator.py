@@ -5,7 +5,7 @@ from __future__ import annotations
 import random
 from dataclasses import asdict, dataclass
 from datetime import date, timedelta
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 from retail_lakehouse.io import atomic_write_csv, atomic_write_json, sha256_file

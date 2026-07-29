@@ -5,8 +5,9 @@ from __future__ import annotations
 import hashlib
 from collections import defaultdict
 from datetime import date
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
+
 from retail_lakehouse.io import (
     atomic_write_csv,
     atomic_write_json,
