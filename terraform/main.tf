@@ -8,8 +8,8 @@ locals {
   default_tags = {
     application = "retail-lakehouse-portfolio-demo"
     environment = var.environment
-    data_class = "synthetic"
-    managed_by = "terraform"
+    data_class  = "synthetic"
+    managed_by  = "terraform"
   }
 }
 
