@@ -1,0 +1,37 @@
+{
+  "business_metrics": {
+    "active_customers": 50,
+    "completed_orders": 176,
+    "completed_revenue": "194928.03",
+    "products_sold": 20
+  },
+  "disclosure": "Synthetic portfolio data; not production or employer results.",
+  "quality": {
+    "failed_checks": 0,
+    "passed_checks": 12,
+    "status": "PASSED"
+  },
+  "row_counts": {
+    "bronze": {
+      "customers": 50,
+      "order_items": 498,
+      "orders": 200,
+      "products": 20
+    },
+    "gold": {
+      "customer_360": 50,
+      "daily_sales": 30,
+      "product_performance": 20
+    },
+    "silver": {
+      "customers": 50,
+      "order_items": 498,
+      "orders": 200,
+      "products": 20
+    }
+  },
+  "run_id": "67ec2c585afb3b7e",
+  "seed": 20260728,
+  "synthetic": true
+}
+
